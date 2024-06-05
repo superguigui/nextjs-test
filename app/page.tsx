@@ -2,7 +2,7 @@ import Spline from "@splinetool/react-spline/next";
 
 export default function Home() {
   const scene =
-    process.env.SPLINE_SCENE ||
+    process.env.SPLINE_SCENE_URL ||
     "https://prod.spline.design/hLHS1ALE7h2umTGH/scene.splinecode";
   return (
     <main>
